@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../Images/login-pageBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #f1f1f1;
+    border-radius: 7%;
+}
+
+
+.form-group
+{
+    margin: 10%;
+    align-content: center;
+    text-align: center;
+}
+
+
+.form-control
+{
+    border-radius: 20px;
+}
+
+.login-btn
+{
+    width: 90%;
+    border-radius: 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+.login-form-2ndpart
+{
+    margin: 10%;
+}
+
+
+
+.logo
+{
+    margin-top: 2.5%;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.login-leftpart
+{
+    align-items: center;
+}
+
+.form-check-label
+{
+    margin-left: 12%;
+}
+
+.psw
+{
+    margin-left: 35%;
+}
+
