@@ -7,40 +7,48 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>EMO Player</title>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
-  <header>
-    <span>logo</span>
-    <h4>Title</h4>
-    <button>Login</button>
-  </header>
   <body>
-    <div id="card1" class="cards">
-      <h1>Name</h1>
-      <img src="" alt="Logo">
-    </div>
-    <div id="card2" class="cards">
-      <h2>Why Us</h2>
-      <ul>
-        <li>Uninterupted Listening</li>
-        <li>Discover Songs On Your Mood</li>
-        <li>Better User Interface</li>
-        <li>Enjoy Unlimited Songs</li>
-        <li>Better Recommendation</li>
-      </ul>
-    </div>
-    <div id="card3" class="cards">
-      <h2>Discover Our New Playlists</h2>
-      <div id="listCard1">listCard</div>
-      <div id="listCard2">listCard</div>
-      <div id="listCard3">listCard</div>
-    </div>
+    <nav>
+      <div id="titlePart">
+        <img src="Images/logo.jpeg" alt="logo" id="logo">
+        <h4>EMO WebPlayer</h4>
+      </div>
+      <div id="btn">
+        <button id="loginBtn">Login</button>
+        </div>
+    </nav>
+    <section>
+      <div id="card1" class="cards">
+        <h1>Name</h1>
+        <img src="" alt="Logo">
+      </div>
+      <div id="card2" class="cards">
+        <h2>Why Us</h2>
+        <ul>
+          <li><span>Uninterupted Listening</span></li>
+          <li><span>Discover Songs On Your Mood</span></li>
+          <li><span>Better User Interface</span></li>
+          <li><span>Enjoy Unlimited Songs</span></li>
+          <li><span>Better Recommendation</span></li>
+        </ul>
+      </div>
+      <div id="card3" class="cards">
+        <h2>Discover Our New Playlists</h2>
+        <div id="playList">
+          <div id="listCard1" class="listCards">listCard</div>
+          <div id="listCard2" class="listCards">listCard</div>
+          <div id="listCard3" class="listCards">listCard</div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h4>Contact</h4>
+    </footer>
   </body>
-  <footer>
-    <h4>Contact</h4>
-  </footer>
 </html>
