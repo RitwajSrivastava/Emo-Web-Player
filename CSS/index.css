@@ -5,7 +5,10 @@ body{
 nav{
     display: flex;
     border: 1px solid black;
-    background-color: rgb(52, 57, 58);
+    background-color: transparent;
+    opacity: .8;
+    z-index: 1;
+    background-color:rgb(195, 200, 201) ;
 }
 #titlePart{
     display: flex;
@@ -42,8 +45,17 @@ section{
 #card1{
     display: flex;
     flex-direction: column;
+    height: 727px;
+    margin-top: -80px;
+    background-repeat: no-repeat, no-repeat;
+    background-image: url(https://cutewallpaper.org/21/anime-boy-listening-to-music/Guy-Listening-To-Music-Drawing.jpg), url(https://media.istockphoto.com/photos/falling-autumn-red-leaves-with-sunlight-fall-background-picture-id1035136578);
+    background-size: 40%, 80% 92%;
+    background-size: cover,cover;
+    background-blend-mode: luminosity;
+
 }
 #card1 h1{
+    margin-top: 100px;
     text-align: center;
 }
 #card2 ul{
