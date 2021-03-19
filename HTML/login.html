@@ -6,55 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/login.css">
     <title>Login</title>
   </head>
   <body>
-      <div class="container-fluid row login-container" id="login-container">
-          
-        
-        
-        <div class="col-md-6 login-leftpart" id="login-leftpart">
-              <div id="logo">
-                  <img src="../Images/logo.jpeg" alt="err" class="logo">
-              </div>
-              <div id="">
 
-              </div>
-          </div>
-
+        <!--------------------Right Section of page---------------->
 
 
         
-          <div id="login-rightpart" class="col-md-6 login-rightpart">
-              <form action="" id="login-form" class="login-form">
-                  <div id="login-form-1stpart">
-                    <div class="form-group">
-                      <h1>Login</h1>
-                    </div>
-                    <div class="form-group">
-                      <input type="text" placeholder="Email" id="login-email" class="form-control">
-                    </div>
-                    <div class="form-group">
-                      <input type="password" placeholder="********" id="login-password" class="form-control">
-                    </div>
-                    <div class="form-group">
-                      <button type="submit" id="login-button" class="btn login-btn">Login</button>
-                    </div>
-                    <div class="form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" type="checkbox"> Remember me
-                      </label>
-                    </div>
+              <div class="form-container">
+                <!--------------------Login form----------------->
+                <form id="login" class="form form-hidden">
+                  <h1 class="form-title">Login</h1>
+                  <div class="form-message form-message-error"></div>
+                  
+                  
+                  <div class="form-group">
+                    <input type="text" placeholder="Username or Email" autofocus class="form-input">
+                    <div class="form-input-error-message"></div>
                   </div>
-                  <div id="login-form-2ndpart" class="login-form-2ndpart">
-                    <a href="#">Regester new user</a></span>
-                    <span class="psw">Forgot <a href="#">password?</a></span>
+                  <div class="form-group">
+                    <input type="password" placeholder="********" autofocus class="form-input">
                   </div>
-              </form>
-          </div>
-      </div>
+                  <button class="form-button" type="submit">Continue</button>
+                  
+                  
+                  <p class="form-text">
+                    <a href="#" class="form-link">Forgot your password</a>
+                  </p>
+                  <p class="form-text">
+                    <a class="form-link" href="" id="linkCreateAccount">Don't have an account? Create account</a>
+                  </p>
+                </form>
+                <!------------------------SignUp form---------------------------->
+                <form id="createAccount" class="form">
+                  <h1 class="form-title">Create Account</h1>
+                  <div class="form-message form-message-error"></div>
+                  
+                  <div class="form-group">
+                    <input type="text" id="signupUsername" placeholder="Username" autofocus class="form-input">
+                    <div class="form-input-error-message"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" placeholder="Email Address" autofocus class="form-input">
+                    <div class="form-input-error-message"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" placeholder="Password" autofocus class="form-input">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" placeholder="Confirm Password" autofocus class="form-input">
+                  </div>
+                  <button class="form-button" type="submit">Continue</button>
+                  
+
+                  <p class="form-text">
+                    <a class="form-link" href="" id="linkLogin">Already have an account? Sign in</a>
+                  </p>
+                </form>
+                
+              </div>
 
 
 
@@ -64,5 +79,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../JAVASCRIPT/login.js"></script>
   </body>
 </html>
